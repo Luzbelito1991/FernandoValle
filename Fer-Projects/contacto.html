@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta HTML5</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <main id='contenedor'>
+
+        <header class="header">
+            <div class="logo">
+                <a href="index.html">
+                <h1>Beats Tucumanos</h1>
+            </a>
+            </div>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="active" href="nota1.html">Nota1</a>
+
+                    <!--  Fede's Way 
+                    <span class="active">Nota1</span>
+                    -->
+                    <!--
+                        menu secundario
+                         <ul>
+                        <li>
+                            <a href="">sub</a>
+                        </li>
+                    </ul> -->
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <!--  limpiar float -->
+                <div class="clear" style="clear:both"></div>
+            </ul>
+        </nav>
+
+        <section class="principal">
+
+            <div class="titform">
+                <h2>Contacto</h2>
+            </div>
+            
+
+            <form action="mailto:mail@mail.com" method="post" id="formprin" target="new">
+
+                <div>
+                    <label>
+                        <span>Nombre</span>
+                        <input type="text" name="nombre">
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" id="campoemail" placeholder="example: mail@mail.com" required>
+                    </label>
+                </div>
+
+                <div>
+                    
+                        <span>Tipo de consulta: </span>
+
+                    <select name="Seleccione" id="">
+
+                        <option value="tecnico">Soporte Tecnico</option>
+                        <option value="ventas">Ventas</option>
+                        <option value="administracion">Administracion</option>
+                        <option value="otras">Otras Consultas</option>
+                        <option selected>Seleccione una opción</option>
+                    </select>
+                </div>
+
+                <div>
+                    <span>Indique su genero</span>
+                    <p>
+                    <label>
+                    <input type="radio" name="genero" value="Hombre">Masculino
+                    </label>
+                    <br>
+                    <label>
+                    <input type="radio" name="genero" value="femenino">Femenino
+                    </label>
+                    <br>
+                    <label>
+                    <input type="radio" name="genero" value="otro">Otro
+                    </label>
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <span>Escriba su consulta</span>
+                    <br>
+                    <label for="txtMensaje">
+                    <textarea name="comentario" id="" cols="30" rows="10" placeholder="El servicio brindado fué..."></textarea>
+                    </label>
+                </div>
+
+                <div>
+
+                    <button type="submit">Consultar</button>
+
+                </div>
+
+            </form>
+
+
+        </section>
+
+        <aside class="banner">
+            <!-- contenido de 2da importancia -->
+            insertar banner
+            <!-- <iframe></iframe> -->
+        </aside>
+
+        <footer class="pie">
+            <p>
+                &copy; 2021 - Derechos reservados - Desarrollado por <a href="mailto:mail@mail.com">YO</a>
+            </p>
+        </footer>
+    </main>
+    
+
+
+</body>
+</html>

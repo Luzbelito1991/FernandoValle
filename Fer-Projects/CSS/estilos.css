@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background:black;
+}
+
+
+.header .logo a:visited{
+    color: white;
+}
+    .header a{
+        text-decoration-line: none;
+    }
+
+#contenedor{
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    
+
+}
+
+.header{
+    background:rgba(85, 4, 117, 0.945);
+    color: white;
+    margin-bottom: 1.5%;
+    padding: 2%;
+}
+
+
+.navbar{
+    background: rgb(83, 10, 83);
+    color: white;
+    text-align: end;
+    /*padding: 2%;*/
+
+}
+
+    .navbar ul{
+        list-style-type: none;
+    }
+
+    .navbar ul li{
+        display: inline-block;
+    }
+
+    .navbar ul li a{
+        color: white;
+        text-decoration-line: none;
+        padding: 15px;
+        display: block;
+    }
+
+    .navbar ul li a:hover{
+        background: white;
+        color:black;
+        border-radius:5px;
+    }
+
+    .navbar ul li a:active{
+        background: rgb(3, 108, 245);
+        border-radius:5px;
+    }
+
+
+.principal{
+    box-sizing: border-box;
+    background: rgb(96, 2, 109);
+    width: 80%;
+    padding: 2%;
+    float:left;  
+}
+
+.artprin{
+    background: rgb(16, 247, 8);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+    .artprin .txt1{
+        float: left;
+        width: 60%;
+    }
+
+        .artprin .img1{
+            float: right;
+            width: 40%;
+        /*  max-height: 200px; */
+        }
+
+            .artprin figure img{
+                width: 100%;
+            }
+
+            .limpiarfloat{
+                clear: both;
+            }
+
+
+
+
+
+
+.artsecder{
+    background: rgb(5, 5, 5);
+    padding: 15px;
+    width: 50%;
+    float: left;
+}
+
+.artsecizq{
+    background: rgb(93, 64, 252);
+    padding: 15px;
+    width: 50%;
+    float: left;
+}
+
+
+.logo1{
+    width: 80%;
+}
+
+.imgNota{
+    width: 100%;
+}
+
+
+.banner{
+    background: grey;
+    width: 20%;
+    padding: 2%;
+    box-sizing: border-box;
+    height: 300px;
+    float: right;
+
+}
+
+.pie{
+    
+
+    background: rgba(85, 4, 117, 0.945);
+    padding: 4%;
+    text-align: center;
+    color: white;
+    clear: both;
+}
+
+/* FORMULARIO*/
+
+
+.titform{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+#formprin{
+    border-radius: 8px;
+    background:grey;
+    padding: 30px;
+    width: 60%;
+}
+
+    #formprin span{
+        margin: 5px 0 15px 0;
+        color:black;
+        
+    }
+
+
+    #formprin input{
+        padding:10px;
+        width: 100%;
+        margin: 5px 0 10px 0;
+        border-radius: 3px;
+        border: none;
+    }
+
+    #formprin input[type="radio"]{
+        width: auto;
+        margin-right: 15px;
+        
+        
+    }
+
+#formprin select{
+
+    font-family: monospace;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+
+}
+
+#formprin textarea{
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+#formprin p{
+    font-family: monospace;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+}
+
+#formprin button[type="submit"]{
+
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 3px;
+background: blueviolet;
+transition: 1s;
+
+    
+}
+
+#formprin button[type="submit"]:hover{
+background: rgb(211, 173, 247);
+cursor: pointer;
+}

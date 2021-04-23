@@ -1,2 +1,0 @@
-# FernandoValle
-mi primer repositorio
