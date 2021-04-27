@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Singlepage - Menu de navegacion</title>
+<link rel="stylesheet" href="css/estilos.css">
+	
+</head>
+<body>
+	<header id="header">
+		<div class="logo">
+			UTN
+		</div>
+		<nav id="principal">
+			<ul id="nav-list">
+				<li><a href="#secc-1">Sección 1</a></li>
+				<li><a href="#secc-2">Video</a></li>
+				<li><a href="#secc-3">Audios</a></li>
+				<li><a href="#secc-4">Embed</a></li>
+				<li><a href="#secc-5">Sección 5</a></li>
+				<li><a href="#secc-6">Sección 6</a></li>
+			</ul>			
+		</nav>
+
+		<div style="clear:both"></div>
+
+	</header>
+
+	<section id="secc-1">
+		<div>
+			<h2>Sección 1</h2>
+
+			<a href="anclas.html#mitad">Ver anclas</a>
+		</div>
+	</section>
+	
+	<section id="secc-2" >
+		<h2>Video</h2>
+
+		<div>
+			<h3>Formatos</h3>
+			.mpeg  / .mov / .avi / .mp4 / .wmv / .mkv / .flv / .webm / .m4v
+
+			<hr>
+
+			Para web -> .mp4 / .avi / .webm
+
+			<!--  -->
+				<video controls muted  preload="auto" class="" >
+					<source src="../videos/Chrome_ImF.mp4">
+					<source src="../videos/Chrome_ImF.ogv">
+					<source src="../videos/Chrome_ImF.webm">
+					<!-- Poco soporte HTML5 -->
+					<embed src="../audios/gallo.mp3" type="">
+						<p>Tu navegador es obsoleto...</p>
+				</video>
+
+			
+
+
+		</div>
+	</section>
+	
+	<section id="secc-3">
+		<h2>Audios</h2>
+		<p>
+			Formatos: <br>
+
+			.mp3 / .wav / .wma / .ogg / .3gp / .aac
+
+			<hr>
+
+			Para web -> .mp3 / .ogg / .wav
+		</p>
+
+		<!-- <bgsound src=""> -->
+		<audio controls  loop>
+			<source src="../audios/gallo.mp3" type="audio/mp3">
+			<source src="../audios/gallo.ogg" type="audio/ogg">
+			<source src="../audios/gallo.wav" type="audio/wav">
+		</audio>
+
+	</section>
+
+	<section id="secc-4" >
+		 <h2>Contenido embebido -> <!--<iframe></iframe> --></h2> 
+
+		 <!-- <iframe src="http://www.ole.com.ar" frameborder="0" width="50%" height="300px"></iframe> -->
+
+		 <iframe width="560" height="315" src="https://www.youtube.com/embed/KVdKeT6JWwE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+	</section>
+
+	<section id="secc-5">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.0551084834527!2d-58.42034895111071!3d-34.59858703346637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88bd8fe0e0b6e3a6!2sCentro%20de%20e-Learning%20UTN%20BA!5e0!3m2!1ses-419!2sar!4v1619033125806!5m2!1ses-419!2sar" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+	</section>
+
+	<section id="secc-6" >
+		<h2>Street view</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!4v1619033377013!6m8!1m7!1s3_S0MzUrEpCF3msG5daoIg!2m2!1d-34.59856282852975!2d-58.42028370591014!3f102.3491905587596!4f0.23983494365036506!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>	
+
+
+	<footer class="footer">
+		<p>&copy; 2021</p>
+		<p>Todos los derechos reservados</p>
+	</footer>
+		
+</body>
+</html>

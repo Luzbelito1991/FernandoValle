@@ -1,0 +1,336 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+font-family:monospace;
+font-size: 20px;
+background-image: url(../img/background/paper.jpg);
+
+}
+
+#principal{
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+}
+
+#principal .cabecera .txt{
+    float: left;
+    width: 40%;
+
+}
+
+#principal .cabecera .logo{
+    float: right;
+    width: 25%;
+    
+}
+
+h1{
+    color:black;
+}
+h2{
+    color: black;
+    padding: 20px;
+    
+}
+p{
+    color: black;
+}
+
+
+
+
+#anclas{
+margin: 8px 0 8px 0;
+padding: 7px;
+width: 100%;
+text-align: right;
+float: right;
+background: #4C9972;
+border-radius: 3px;
+}
+
+#anclas #nav-list{
+    list-style-type: none;
+    margin-top: 20px;
+    
+}
+
+#anclas #nav-list li{
+
+    list-style: none;
+    display:inline-block;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    
+    
+}
+
+#anclas #nav-list a{
+    text-decoration:none;
+    color: black;
+    text-decoration-color: white;
+}
+
+    #anclas #nav-list a:hover{
+    text-decoration:none;
+    background: white;
+    border-radius: 3px;
+    padding: 4px;
+    
+    }
+
+.limpiarnav{
+    clear: both;
+}
+
+.empresa{
+    margin-top: 10px;
+}
+
+.empresa .contempresa{
+    width: 100%;
+    height: auto;
+}
+
+.empresa .contempresa .txtempre{
+    width: 100%;
+    color: rgb(6, 14, 0);
+    float: left;
+}
+
+    .empresa .contempresa figure img{
+        width: 40%;
+        margin-bottom: 30px;
+        float: right;
+        border-radius: 3px;
+        
+    }
+
+
+body{
+    width: 80%;
+    padding: 10px;
+    margin:12px auto;
+}
+
+p{
+    padding: 5px;
+    margin: 40px;
+}
+
+.titform{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+/* SECCIONES */
+
+/*.sucur h3{
+
+    color: blue;
+    margin: 10px;
+
+}
+
+.ubicacion iframe{
+    width: 80%;
+    margin: 10px 20px;
+}
+*/
+
+.sucur{
+    box-sizing: border-box;
+}
+
+
+.sucur .cajatuc{
+    width: 100%;
+    padding: 3px;
+    height: auto;
+    box-sizing: border-box;
+    
+
+}
+
+.sucur .cajatuc .ubicacion iframe{
+    width: 50%;
+    float: right;
+    margin-bottom: 20px;
+    
+}
+
+.sucur .cajatuc .ubicacion img{
+    width: 40%;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+
+.galeria{
+    width: 1100px;
+    margin: 0 auto;
+    
+    
+    
+
+
+}
+
+.fila{
+    display: flex;
+    margin-bottom: 20px;
+    
+
+}
+
+.caja-galeria {
+    width: 25%;
+    padding: 0 10px;
+    margin: auto;
+    
+
+}
+
+.caja-galeria img {
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+.caja-galeria img:hover{
+    padding:4px;
+	background:rgb(255, 254, 254);
+	border-radius:20px;
+	-webkit-transition:-webkit-transform 0.55s ease-in-out 0.1s;
+	box-shadow:#999 5px 5px 10px;
+    -webkit-transform:scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#formprin{
+    border-radius: 8px;
+    
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+    #formprin span{
+        margin: 5px 0 15px 0;
+        color:black;
+        
+    }
+
+
+    #formprin input{
+        padding:10px;
+        width: 100%;
+        margin: 5px 0 10px 0;
+        border-radius: 3px;
+        border: none;
+        
+    }
+
+    #formprin input[type="radio"]{
+        width: auto;
+        margin-right: 15px;
+        
+        
+        
+    }
+
+#formprin select{
+
+    font-family: monospace;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    background: 
+
+}
+
+#formprin textarea{
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: monospace;
+    background: 
+}
+
+#formprin p{
+    font-family: monospace;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+}
+
+#formprin button[type="submit"]{
+
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 3px;
+background:#4C9972;
+transition: 1s;
+
+    
+}
+
+#formprin button[type="submit"]:hover{
+background: rgb(82, 160, 79);
+cursor: pointer;
+}
+
+.pie{
+    
+
+    background: #4C9972;
+    padding: 2%;
+    text-align: right;
+    color:black;
+    clear: both;
+    margin: 15px 0 10px 0;
+}
+

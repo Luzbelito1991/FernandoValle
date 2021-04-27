@@ -1,0 +1,71 @@
+*{margin:0;padding: 0; }
+html{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+#header{
+	background: rgba(255, 255, 255, 0.424);
+	position: sticky;
+	top:0px;
+}
+
+#principal{
+	float:right;
+	text-align: right;
+	}
+	#principal #nav-list{
+		list-style-type: none;
+		}
+		#nav-list li{
+			display: inline-block;
+			}
+			#nav-list li a{
+				background-color: salmon;
+				color: white;
+				text-decoration: none;
+				padding: 10px;
+				display: block;
+				border-bottom:2px solid transparent;
+			}
+			#nav-list li a:hover{
+				background: white;
+				color: salmon;
+				border-bottom: 2px solid salmon;
+				box-sizing: border-box;
+			}
+#secc-1{
+	background: green;
+}
+#secc-2 {
+	background: salmon;
+	/* outline-width: 2px;
+	outline-style: dotted;
+	outline-color: red;
+	outline-offset: -20px; */
+}
+#secc-4 {
+	background: lightblue;
+}
+#secc-6 {
+	background: red;
+}
+/*section{*/
+#secc-1,#secc-2,#secc-3,#secc-4,#secc-5,#secc-6{
+	padding-top:50px;
+	height:100vh;
+	/*Border vs outline -> 
+	border es parte del modelo de caja -> tamaño de los bloques
+	Outline no ocupa espacio
+	*/
+	/* outline: 5px solid red; */
+
+	
+}
+.footer{
+	background: lightslategray;
+	padding: 5%;
+	text-align: center;
+	color: white;
+}
