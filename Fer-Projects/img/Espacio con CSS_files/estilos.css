@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding:0;
+    background: black;
+}
+
+main .img-100{
+    width: 100%;
+}
+
+
+
+.espacio{
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto ;
+    margin-right: auto ;
+    position: relative;
+    
+    }
+    .luna{
+        width:12%;
+        position: absolute;
+        right:22%;
+        top: 10%;
+        z-index: 10;
+    }
+    .tierra{
+        width:40%;
+        position: absolute;
+        right:0;
+        top: 10%;
+        z-index: 9;
+    }
+
+    .arsat{
+        width:20%;
+        position: absolute;
+    }
+
+    .meteoro{
+        width:15%;
+        position: absolute;
+        left: 65%;
+        z-index: 11;
+        
+    }

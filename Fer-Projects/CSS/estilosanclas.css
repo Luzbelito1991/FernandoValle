@@ -1,138 +1,155 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-html{
-font-family:monospace;
-font-size: 20px;
-background-image: url(../img/background/paper.jpg);
+html {
+    position: relative;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    background-image: url(../img/background/BG-0.jpg);
 
 }
 
-#principal{
-    background: rgb(255, 255, 255);
+body {
+    width: 80%;
+    padding: 10px;
+    margin: 12px auto;
+}
+
+
+.contenedor {
+    /*background-image: url("../img/background/BG-0.jpg");*/
+    width: 100%;
+}
+
+#principal {
+
     padding: 5px;
     width: 100%;
     height: auto;
     box-sizing: border-box;
     border-radius: 3px;
-
+    background: rgb(255, 255, 255);
 }
 
-#principal .cabecera .txt{
-    float: left;
-    width: 40%;
 
-}
-
-#principal .cabecera .logo{
+#principal .cabecera .logo {
+    border-radius: 3px;
+    ;
     float: right;
     width: 25%;
-    
+
+
 }
 
-h1{
-    color:black;
+h1 {
+    color: black;
 }
-h2{
+
+h2 {
     color: black;
     padding: 20px;
-    
+
 }
-p{
+
+p {
     color: black;
 }
 
 
 
 
-#anclas{
-margin: 8px 0 8px 0;
-padding: 7px;
-width: 100%;
-text-align: right;
-float: right;
-background: #4C9972;
-border-radius: 3px;
+#anclas {
+    margin: 8px 0 8px 0;
+    width: 100%;
+    text-align: right;
+    float: right;
+    /*background: #4C9972;*/
+    border-radius: 3px;
+
 }
 
-#anclas #nav-list{
+#anclas #nav-list {
+    background: #4C9972;
+    padding: 25px;
     list-style-type: none;
-    margin-top: 20px;
-    
+    margin-top: 1px;
+    margin-bottom: 1px;
+    position: static;
+
+
+
 }
 
-#anclas #nav-list li{
+#anclas #nav-list li {
 
     list-style: none;
-    display:inline-block;
+    display: inline-block;
     padding: 5px;
     margin: 5px 0 5px 0;
-    
-    
+
+
 }
 
-#anclas #nav-list a{
-    text-decoration:none;
+#anclas #nav-list a {
+    text-decoration: none;
     color: black;
     text-decoration-color: white;
 }
 
-    #anclas #nav-list a:hover{
-    text-decoration:none;
-    background: white;
+#anclas #nav-list a:hover {
+    text-decoration: none;
+    /* background: white;*/
+    text-shadow: 1px 1px 0px rgb(255, 255, 255);
     border-radius: 3px;
-    padding: 4px;
-    
-    }
+    padding: 3px;
 
-.limpiarnav{
+}
+
+.limpiarnav {
     clear: both;
 }
 
-.empresa{
+.empresa {
     margin-top: 10px;
 }
 
-.empresa .contempresa{
+.empresa .contempresa {
     width: 100%;
     height: auto;
 }
 
-.empresa .contempresa .txtempre{
+.empresa .contempresa .txtempre {
     width: 100%;
     color: rgb(6, 14, 0);
     float: left;
 }
 
-    .empresa .contempresa figure img{
-        width: 40%;
-        margin-bottom: 30px;
-        float: right;
-        border-radius: 3px;
-        
-    }
+.empresa .contempresa figure img {
+    width: 40%;
+    margin-bottom: 30px;
+    float: right;
+    border-radius: 3px;
 
-
-body{
-    width: 80%;
-    padding: 10px;
-    margin:12px auto;
 }
 
-p{
+
+
+p {
     padding: 5px;
-    margin: 40px;
+    margin: 20px;
 }
 
-.titform{
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    margin-bottom: 15px;
+.qhacemos .video{
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 50%;
+
 }
+
+
 
 
 /* SECCIONES */
@@ -150,132 +167,113 @@ p{
 }
 */
 
-.sucur{
+.sucur {
     box-sizing: border-box;
 }
 
 
-.sucur .cajatuc{
+.sucur .cajatuc {
     width: 100%;
     padding: 3px;
     height: auto;
     box-sizing: border-box;
-    
+
 
 }
 
-.sucur .cajatuc .ubicacion iframe{
+.sucur .cajatuc .ubicacion iframe {
     width: 50%;
     float: right;
     margin-bottom: 20px;
-    
+
 }
 
-.sucur .cajatuc .ubicacion img{
+.sucur .cajatuc .ubicacion img {
     width: 40%;
     float: left;
     margin-bottom: 20px;
-    
-}
-
-.galeria{
-    width: 1100px;
-    margin: 0 auto;
-    
-    
-    
-
 
 }
 
-.fila{
+.clientes {
+    width: 80%;
+
+}
+
+.galeria {
+    width: 100%;
+
+}
+
+.fila {
+    width: 100%;
     display: flex;
-    margin-bottom: 20px;
-    
-
+    margin: 0 20px;
 }
 
 .caja-galeria {
     width: 25%;
     padding: 0 10px;
-    margin: auto;
-    
-
 }
 
 .caja-galeria img {
-    width: 100%;
+    width: 80%;
     display: inline-block;
     border-radius: 10px;
 
+
 }
 
-.caja-galeria img:hover{
-    padding:4px;
-	background:rgb(255, 254, 254);
-	border-radius:20px;
-	-webkit-transition:-webkit-transform 0.55s ease-in-out 0.1s;
-	box-shadow:#999 5px 5px 10px;
-    -webkit-transform:scale(1.1);
+.caja-galeria img:hover {
+    padding: 4px;
+    background: rgb(13, 129, 19);
+    border-radius: 20px;
+    box-shadow: #999 5px 5px 10px;
+
 }
 
 
+/* FORMULARIO*/
+.titform {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#formprin{
+#formprin {
     border-radius: 8px;
-    
+
     padding: 30px;
     width: 80%;
     margin: auto;
 }
 
-    #formprin span{
-        margin: 5px 0 15px 0;
-        color:black;
-        
-    }
+#formprin span {
+    margin: 5px 0 15px 0;
+    color: black;
+
+}
 
 
-    #formprin input{
-        padding:10px;
-        width: 100%;
-        margin: 5px 0 10px 0;
-        border-radius: 3px;
-        border: none;
-        
-    }
+#formprin input {
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    border: none;
 
-    #formprin input[type="radio"]{
-        width: auto;
-        margin-right: 15px;
-        
-        
-        
-    }
+}
 
-#formprin select{
+#formprin input[type="radio"] {
+    width: auto;
+    margin-right: 15px;
+
+
+
+}
+
+#formprin select {
 
     font-family: monospace;
     padding: 10px;
@@ -283,21 +281,21 @@ p{
     border-radius: 3px;
     width: 100%;
     border: none;
-    background: 
+    background:
 
 }
 
-#formprin textarea{
+#formprin textarea {
     width: 100%;
     margin: 5px 0 10px 0;
     border: none;
     border-radius: 3px;
     font-size: 16px;
     font-family: monospace;
-    background: 
+    background:
 }
 
-#formprin p{
+#formprin p {
     font-family: monospace;
     padding: 10px;
     margin: 5px 0 10px 0;
@@ -306,31 +304,48 @@ p{
     border: none;
 }
 
-#formprin button[type="submit"]{
+#formprin button[type="submit"] {
 
-width: 100%;
-padding: 10px;
-border: none;
-border-radius: 3px;
-background:#4C9972;
-transition: 1s;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #4C9972;
+    transition: 1s;
 
-    
+
 }
 
-#formprin button[type="submit"]:hover{
-background: rgb(82, 160, 79);
-cursor: pointer;
+#formprin button[type="submit"]:hover {
+    background: rgb(82, 160, 79);
+    cursor: pointer;
 }
 
-.pie{
-    
+
+/* FIN DEL FORMULARIO*/
+
+.pie {
+
 
     background: #4C9972;
     padding: 2%;
     text-align: right;
-    color:black;
+    color: black;
     clear: both;
     margin: 15px 0 10px 0;
 }
 
+.botonup img {
+    width: 5%;
+    position: absolute;
+    right: 3%;
+    bottom: 1%;
+
+}
+
+.botonup img:hover {
+    background: #4C9972;
+    border-radius: 80%;
+    cursor: pointer;
+
+}
